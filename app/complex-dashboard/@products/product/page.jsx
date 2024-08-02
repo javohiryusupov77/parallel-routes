@@ -16,14 +16,13 @@ export default async function Productpage() {
           >
             <Link
               className="text-lg font-medium text-blue-600 hover:underline"
-              href={`/complex-dashboard/${p.id}`}
+              href={`/complex-dashboard/product/${p.id}`}
             >
               {p.title}
             </Link>
           </li>
         ))}
       </ul>
-      <Link href={"/complex-dashboard/product"} >link</Link>
     </div>
   );
 }
