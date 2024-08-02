@@ -38,7 +38,7 @@ export default function UserPage({ params }) {
         className="inline-block mb-4 text-blue-600 hover:text-blue-800 font-medium underline hover:no-underline transition-colors duration-300"
         href="/complex-dashboard"
       >
-        &larr; Back to Products
+        &larr; Back to Users
       </Link>
       <div className="bg-white shadow-md rounded-lg p-6">
         <Image
