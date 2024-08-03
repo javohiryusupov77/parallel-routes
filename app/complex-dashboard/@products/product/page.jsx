@@ -8,12 +8,6 @@ export default async function Productpage() {
   return (
     <div className="flex-1 p-6 bg-gray-100 border border-gray-300 rounded-lg shadow-md">
       <h1 className="text-2xl font-bold mb-4 text-gray-800">Products Page</h1>
-      <Link
-        className="text-lg font-medium text-blue-600 hover:underline"
-        href={`/complex-dashboard`}
-      >
-        Go back to Dashboard
-      </Link>
       <ul className="space-y-4">
         {products.map((p) => (
           <li
@@ -29,6 +23,12 @@ export default async function Productpage() {
           </li>
         ))}
       </ul>
+      <Link
+        href={"/complex-dashboard/product"}
+        className="inline-block mt-4 text-blue-600 font-medium hover:text-blue-800 transition-colors duration-300"
+      >
+        Go to see the Product Single
+      </Link>
     </div>
   );
 }

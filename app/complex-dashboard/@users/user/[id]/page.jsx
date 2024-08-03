@@ -36,7 +36,7 @@ export default function UserPage({ params }) {
     <div className="container mx-auto px-4 py-8">
       <Link
         className="inline-block mb-4 text-blue-600 hover:text-blue-800 font-medium underline hover:no-underline transition-colors duration-300"
-        href="/complex-dashboard/user"
+        href="/complex-dashboard"
       >
         &larr; Back to Users
       </Link>

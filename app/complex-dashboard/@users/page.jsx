@@ -38,7 +38,7 @@ export default function UsersPage() {
           >
             <Link
               className="text-lg font-medium text-blue-600 hover:underline"
-              href={`/complex-dashboard/${user.id}`}
+              href={`/complex-dashboard/user/${user.id}`}
             >
               <p>{user.name.firstname}</p>
             </Link>

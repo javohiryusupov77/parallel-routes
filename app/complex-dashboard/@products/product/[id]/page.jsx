@@ -28,7 +28,7 @@ export default async function Page({ params }) {
     <div>
       <Link
         className="inline-block mb-4 text-blue-600 hover:text-blue-800 font-medium underline hover:no-underline transition-colors duration-300"
-        href="/complex-dashboard/product"
+        href="/complex-dashboard"
       >
         &larr; Back to Products
       </Link>
