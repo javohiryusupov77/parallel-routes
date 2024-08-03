@@ -45,12 +45,6 @@ export default function UsersPage() {
           </li>
         ))}
       </ul>
-      <Link
-        href={"/complex-dashboard/user"}
-        className="inline-block mt-4 text-blue-600 font-medium hover:text-blue-800 transition-colors duration-300"
-      >
-        Go to see the User Single
-      </Link>
     </div>
   );
 }
